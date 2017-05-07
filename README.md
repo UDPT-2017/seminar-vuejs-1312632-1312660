@@ -1,12 +1,12 @@
-# Seminar-UDPT - *Tên đề tài*
+# Seminar-UDPT - *Vue.js*
 
-**Tên đề tài** là một repository trong đề tài tìm hiểu của lớp Ứng dụng phân tán.
+**Vue.js** là một repository trong đề tài tìm hiểu của lớp Ứng dụng phân tán.
 
 Thành viên:
-* [ ] **MSSV1** Tên sinh viên 1 (tên tài khoản github)
-* [ ] **MSSV2** Tên sinh viên 2 (tên tài khoản github)
+* [x] **1312632** Cao Tiến Trung (CaoTrung)
+* [x] **1312660** Lê Trọng Tuấn (1312660)
 
-URL: **Link github page**
+URL: **https://caotrung.github.io/**
 
 ## Yêu cầu
 
@@ -16,20 +16,29 @@ Yêu cầu **GIT**
 * [ ] Có sử dụng GIT.
 * [ ] Sử dụng GIT theo Centralized Workflow.
 * [ ] Sử dụng GIT theo Feature Branch Workflow.
-* [ ] Sử dụng GIT theo Gitflow Workflow.
+* [x] Sử dụng GIT theo Gitflow Workflow.
 
 Yêu cầu **bắt buộc**
-* [ ] Source code demo
-* [ ] Slide thuyết trình
-* [ ] Tạo github page để viết lại báo cáo cho nội dung đề tài tìm hiểu
+* [x] Source code demo
+* [x] Slide thuyết trình
+* [x] Tạo github page để viết lại báo cáo cho nội dung đề tài tìm hiểu
 
 Các **nội dung lý thuyết** dự định tìm hiểu. Nhóm liệt kê các nội dung đã làm được vào bên dưới và check vào các nội dung đã tìm hiểu được.
-* [ ] Nội dung 1
-* [ ] Nội dung 2
+* [x] Giới thiệu về Vue.js
+(Cấu trúc của Vue.js gồm:) 
+* [x] Rendering
+* [x] Directive
+* [x] Mustache binding
+* [x] Computed Properties
+* [x] Class and Style Bindings
+* [x] List Rendering
+* [x] Form Input Binding
+* [x] Components
+* [x] So sánh Vue.js với các framwork khác
+
 
 Các **chức năng của demo** đã thực hiện hoặc dự kiến thực hiện. Nhóm check vào các chức năng đã làm
-* [ ] Chức năng 1
-* [ ] Chức năng 2
+* [x] demo Calculator với các chức năng đơn giản
 
 ## Demo
 
