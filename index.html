@@ -1,0 +1,49 @@
+<html>
+<head>
+	<title>Caculator</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div class="box" id="app">
+    <div class="app"><input type="text" readonly size="15.75" v-model="display"></div>
+    <div class="keys">
+        <p>
+        <input type="button" class="button gray" value="MRC" >
+        <input type="button" class="button gray" value="DEL" v-on:click="del()">
+        <input type="button" class="button gray" value="√">
+        <input type="button" class="button pink" value="&divide" v-on:click="inputOperator(4)">
+        </p>
+
+        <p>
+        <input type="button" class="button red" value="7" v-on:click="displayNumber(7)">
+        <input type="button" class="button red" value="8" v-on:click="displayNumber(8)">
+        <input type="button" class="button red" value="9" v-on:click="displayNumber(9)">
+        <input type="button" class="button pink" value="x" v-on:click="inputOperator(3)">
+        </p>
+
+        <p>
+        <input type="button" class="button red" value="4" v-on:click="displayNumber(4)">
+        <input type="button" class="button red" value="5" v-on:click="displayNumber(5)">
+        <input type="button" class="button red" value="6" v-on:click="displayNumber(6)">
+        <input type="button" class="button pink" value="-" v-on:click="inputOperator(2)">
+        </p>
+
+        <p>
+        <input type="button" class="button red" value="1" v-on:click="displayNumber(1)">
+        <input type="button" class="button red" value="2" v-on:click="displayNumber(2)">
+        <input type="button" class="button red" value="3" v-on:click="displayNumber(3)">
+        <input type="button" class="button pink" value="+" v-on:click="inputOperator(1)">
+        </p>
+
+        <p>
+        <input type="button" class="button red" value="0" v-on:click="displayNumber(0)">
+        <input type="button" class="button red" value="." >
+        <input type="button" class="button red" value="C" v-on:click="clear()">
+        <input type="button" class="button orange" value="=" v-on:click="result()" >
+        </p>
+    </div>
+</div>
+<script src="js/vue.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
